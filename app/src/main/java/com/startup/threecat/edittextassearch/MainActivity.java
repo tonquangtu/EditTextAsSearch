@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.KeyEvent;
+import android.view.MenuItem;
 import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * hfjjf
+     *
      * xvndni
      * vnv
      * @param savedInstanceState
@@ -134,5 +136,10 @@ public class MainActivity extends AppCompatActivity {
 ////               Toast.makeText(MainActivity.this, time + "", Toast.LENGTH_SHORT).show();
 //           }
 //       }.execute(time);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        return super.onOptionsItemSelected(item);
     }
 }
