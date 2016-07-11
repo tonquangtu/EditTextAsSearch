@@ -24,7 +24,12 @@ public class MainActivity extends AppCompatActivity {
     long newTime = 0;
 
 
-
+    /**
+     * hfjjf
+     * xvndni
+     * vnv
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
