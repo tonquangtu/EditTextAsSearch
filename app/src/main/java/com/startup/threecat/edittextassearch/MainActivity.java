@@ -24,7 +24,12 @@ public class MainActivity extends AppCompatActivity {
     long newTime = 0;
 
 
-
+    /**
+     * it is on create, it use init view of app
+     * vjjgjg\
+     * gkg
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
